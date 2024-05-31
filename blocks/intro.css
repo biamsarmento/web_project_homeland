@@ -4,8 +4,16 @@
   justify-content: center;
   position: relative;
   box-sizing: border-box;
-  color: #FFFFFF;
   max-width: 984px;
+  color: #FFFFFF;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .intro__title {
@@ -50,7 +58,7 @@
   .intro {
     align-self: center;
     margin: 0 16px;
-    margin-bottom: 64px;
+    margin-bottom: 38px;
   }
 
   .intro__title {
@@ -68,7 +76,7 @@
   .intro {
     align-self: center;
     margin: 0 24px;
-    margin-bottom: 88px;
+    margin-bottom: 64px;
   }
 
   .intro__title {
@@ -84,10 +92,14 @@
 @media (min-width: 1024px){
 
   .intro {
-    align-self: flex-start;
-    max-width: 830px;
+    width: 984px;
     margin: 0;
-    margin-bottom: 92px;
+    margin-bottom: 118px;
+  }
+
+  .intro__container {
+    justify-content: flex-start;
+    max-width: 830px;
   }
 
   .intro__title {
