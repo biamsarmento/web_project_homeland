@@ -158,7 +158,7 @@
   .card__image {
     width: 270px;
     height: 270px;
-    box-shadow: 10px 10px 25px 0px #00000080;
+    background: #000000;
   }
 
   .card__button {
