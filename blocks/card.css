@@ -46,12 +46,12 @@
   box-shadow: 10px 10px 25px 0px #00000080;
   margin: 0;
   padding: 0;
-  background: #00000080;
 }
 
 .card__image:hover {
   filter: brightness(50%);
   box-shadow: 10px 10px 25px 0px #00000080;
+  background: #00000080;
 }
 
 .card__paragraph {
