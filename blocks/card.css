@@ -49,8 +49,9 @@
 }
 
 .card__image:hover {
-  filter: brightness(50%);
-  box-shadow: 10px 10px 25px 0px #00000080;
+  /* filter: brightness(50%); */
+  background: #00000080;
+  opacity: 0.5;
 }
 
 .card__paragraph {
@@ -80,7 +81,6 @@
 
 .card__button:hover {
   background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
-  box-shadow: 5px 5px 10px 0px #00000040;
 }
 
 @media (min-width: 320px){
@@ -114,7 +114,6 @@
 
   .card__image {
     width: 100%;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 
   .card__button {
@@ -124,7 +123,6 @@
     max-height: 48px;
     margin: 0 16px;
     max-width: 288px;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 }
 
@@ -160,7 +158,6 @@
   .card__image {
     width: 270px;
     height: 270px;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 
   .card__button {
@@ -170,7 +167,6 @@
     max-width: 100%;
     max-height: 48px;
     margin: 0;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 }
 
@@ -207,7 +203,6 @@
   .card__image {
     width: 340px;
     height: 340px;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 
   .card__button {
@@ -217,8 +212,6 @@
     max-width: 100%;
     max-height: 48px;
     margin: 0;
-    box-shadow: 10px 10px 25px 0px #00000080;
-
   }
 }
 
@@ -255,7 +248,6 @@
     height: 460px; */
     width: 100%;
     height: 100%;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 
   .card__button {
@@ -265,6 +257,5 @@
     max-width: 356px;
     max-height: 48px;
     margin: 0;
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 }
